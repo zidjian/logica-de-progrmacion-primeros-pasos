@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+            function saltarLinea( veces ) {
+                for(let i = 0; i < veces; i++) {
+                    document.write( '<br>' );
+                }
+            }
+
+            function imprimir ( frase ) {
+                document.write( frase );
+                saltarLinea(2)
+            }
+
+            var edad1 = 27;
+            var edad2 = 21;
+            
+            imprimir( 'La edad de Waldir es ' + edad1 );
+            imprimir( 'La edad de Orlando es ' + edad2 );
+            saltarLinea(2);
+            imprimir( "Ladiferencia de edades es" + (edad1 - edad2 ) );
+        </script>
+</body>
+</html>

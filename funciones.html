@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function saltarLinea( veces ) {
+            for(let i = 0; i < veces; i++) {
+                document.write( '<br>' );
+            }
+        }
+
+        function imprimir ( frase ) {
+            document.write( frase );
+            saltarLinea(2)
+        }
+
+        var anio = 2022;
+
+        imprimir( 'Hola amgos' );
+
+        imprimir( 'Waldir tiene ' + ( anio - 1992) + ' años' );
+
+        imprimir( 'Diego tiene ' + ( anio - 1989) + ' años' );
+
+        imprimir( 'Agapito tiene ' + ( anio - 1967) + ' años' );
+        
+    </script>
+</body>
+</html>
