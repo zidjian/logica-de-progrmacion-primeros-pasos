@@ -1,2 +1,2 @@
-# logica-de-progrmacion-primeros-pasos
-Lógica de programación: Primeros pasos de Oracle Next Education
+# logica-de-programacion-primeros-pasos
+Lógica de programación: Primeros pasos de Oracle Next Education y Alura
